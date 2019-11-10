@@ -9,12 +9,6 @@ task :hola do
   puts "hola de Rake!"
 end
 
-rake greeting:hello
-hello from Rake!
-
-rake greeting:hola
-hola de Rake!
-
 namespace :db do
   desc 'migrate changes to your database'
   task :migrate => :environment do

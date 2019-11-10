@@ -16,9 +16,6 @@ desc 'outputs hello to the terminal'
     Student.create_table
   end
 end
-  task :environment do
-  require_relative './config/environment'
-  end
   
     desc 'seed the database with some dummy data'
   task :seed do
